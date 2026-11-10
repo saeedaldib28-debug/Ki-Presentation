@@ -348,7 +348,7 @@ elif stage == 7:
                 try:
                     from google import genai
                     client = genai.Client(api_key=api_key)
-                    model_name = "gemini-3.8-flash"
+                    model_name = "gemini-2.5-flash"
                     prompt = (
                         "Du bist ein zuverlässiger Deutschlehrer. Beantworte die folgende Frage zur deutschen "
                         "Sprache oder Grammatik auf verständlichem B2-Niveau. "
